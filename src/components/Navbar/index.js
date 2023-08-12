@@ -38,7 +38,10 @@ const Navbar = () => {
             </li>
            
             <li>
-            <button className="action-button">Order Now!</button>
+            <a href="https://forms.gle/9DX2dys4g7L7YiET6">
+							<button className="action-button">Order Now!</button>
+
+						</a>
                 {/* <a href="/about" activeStyle className="hamburger-text">About Us</a> */}
             </li>
            

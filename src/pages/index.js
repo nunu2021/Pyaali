@@ -13,15 +13,15 @@ return (
 		
 			<img className={`${large_window ? "photo" : "invisible"}`} src={chai_image}></img>
 			<div className={`${large_window ? "popup-right" : "invisible"}`}>
-				<p className="medium-text-center">Questions?</p>
+				<p className="small-text">Questions?</p>
 				<br></br>
-				<p className="small-text">
-					Shoot us an email at ____, and we'd love to talk to you!
+				<p className="mini-text">
+					Send us an email at chicagochai_3@gmail.com, and we'd love to talk to you!
 				</p>
 			</div>
 			
 			
-	<div className="container">
+	<div className="container" style={{paddingTop:`${window.innerHeight}`}}>
 
 	<img className={`${large_window ? "center-image" : "center-small-image"}`} src={logo_image}></img>
 			
@@ -36,21 +36,41 @@ return (
 			<br></br>
 			<br></br>
 			<p className='small-text'>
-			Pyaali is a startup founded by a group of women in the Chicagoland Area. 
+			Pyaali is a startup founded by 2 sisters in the Chicagoland Area. 
 			We are dedicated to provide our customers with the taste of traditional chai, the quality of home, and the feeling of our motherland.
 			</p>
 			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+
 			<hr></hr>
-		<br></br>
+
+			
+			<br></br>
+			<br></br>
+			<br></br>
+		
 		<p className='medium-text-center'>
-			We are currently taking <b>wholesale orders</b> for chai in bulk, and <b>catering orders</b> where we serve traditional chai at your event!
+			We are currently taking <b>wholesale orders</b> for Chai. We will provide you with freshly prepared chai at your events, like picnics, parties, potlucks, etc!
 		</p>
 		<br></br>
+		<br></br>
+		<br></br>
+		
 		<hr></hr>
+		<br></br>
+		<br></br>
+		<br></br>
+		
 		<div className={`${large_window ? "row" : "regular"}`}>
 			
-			<div className={`${large_window ? "column" : "regular"}`}>
-				<div className='non-colored'>
+			<div className={`${large_window ? "column" : "regular-col"}`}>
+				<div className={`${large_window ? "non-colored" : "regular-col"}`} >
 					<p className='medium-text-center'>
 							<b>Request an Order Now:</b>
 							
@@ -59,12 +79,15 @@ return (
 						<p className='small-text'>
 							Fill out the following form and we will contact you within 24 hours
 						</p>
-						<button className="action-button">Order Now!</button>
+						<a href="https://forms.gle/9DX2dys4g7L7YiET6">
+							<button className="action-button">Order Now!</button>
+
+						</a>
 				</div>
 				
 			</div>
-			<div className={`${large_window ? "column" : "regular"}`}>
-				<div className='colored'>
+			<div className={`${large_window ? "column" : "regular-col"}`}>
+				<div className={`${large_window ? "colored" : "colored"}`}>
 					<p className='medium-text-center'>
 						<b>Menu:</b>
 						
@@ -74,7 +97,7 @@ return (
 						
 						Masala Chai (<t style={{color:"red"}}>Hot</t>)<br></br><br></br>
 						Chilled Chai (<t style={{color:"blue"}}>Iced</t>)<br></br><br></br>
-						Saffron Chai (<t style={{color:"red"}}>Hot</t>/<t style={{color:"blue"}}>Iced</t>)
+						Saffron Chai (<t style={{color:"red"}}>Hot</t>)
 					</p>
 				</div>
 			
@@ -82,6 +105,10 @@ return (
 		</div>
 <hr></hr>
 <br></br>
+<br></br>
+<br></br>
+
+
 		<p className='text'>
 				<b>You Have Probably Seen Us...</b>
 		</p>
@@ -91,23 +118,32 @@ return (
 			<div class="mover-1"></div>
 		</div>
 		<br></br>
+		<br></br>
+		<br></br>
 		<p className='small-text'>
-			Hello! We are a group of 3 women, who have set on a journey to spread the love of chai to the Chicagoland area!
+			Hello! We are 2 sisters, who have set on a journey to spread the love of chai to the Chicagoland area!
 			In the past 2 years, we experimented with our idea to gauge how interested you guys are in the traditional taste of a cutting chai. We started sampling our chai in Chicago Downtown.
 			
 			<br></br> <br></br>
 			 And GUESS WHAT!!! 
 			 <br></br> <br></br>
-			Your response was awesome! You gave us all your love and support to get us to the next stage in our journey! At a certain point, we were sharing hundred of cups of chai in only a few hours DAILY!! 
-			It was now time to take the next step in the journey for Pyaali. We are now serving traditional chai in wholesale, but this time, AT YOUR PLACE, and AT YOUR TIME!!
+			Your response surprised us! Y'all were so supportive of this idea, that at one point, we were selling 300+ cups of chai in only a few hours! You gave us all your love and support to get us to the next stage in our journey! 
+			In that next step, we are now serving traditional chai in wholesale, but this time, AT YOUR PLACE, and AT YOUR TIME!!
 			<br></br> <br></br>
+
+			In addition, to having the vision to spread the taste of traditional chai, we founded Pyaali to support women empowerment in Asian communities. Reach out to us to know more!
 
 
 
 		</p>
-			
+
+		<br></br><br></br><br></br><br></br>
+		<p style={{textAlign:'center'}}> Pyaali © 2023</p>
+		<br></br>
 	</div>
     </div>
+
+	
 	</div>
 );
 };
