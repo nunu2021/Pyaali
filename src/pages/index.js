@@ -16,7 +16,7 @@ return (
 				<p className="small-text">Questions?</p>
 				<br></br>
 				<p className="mini-text">
-					Send us an email at chicagochai_3@gmail.com, and we'd love to talk to you!
+					Contact us at 847-312-3051, and we'd love to talk to you!
 				</p>
 			</div>
 			
