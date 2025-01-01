@@ -1,6 +1,5 @@
 import {React, useState} from "react";
 import "../../styles/navbar.css"
-import logo from "../../img/pyaali_logo.png"
 const Navbar = () => {
     const [isNavExpanded, setIsNavExpanded] = useState(false)
   return (

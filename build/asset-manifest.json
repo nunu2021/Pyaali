@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.4292d307.css",
-    "main.js": "/static/js/main.18d3ba8a.js",
+    "main.css": "/static/css/main.63512894.css",
+    "main.js": "/static/js/main.2a45fa20.js",
     "static/media/chai_collage2.png": "/static/media/chai_collage2.00ff0c37ddcb25741a00.png",
     "static/media/chai-backdrop-2.png": "/static/media/chai-backdrop-2.41edc5a1f83766a963d6.png",
     "static/media/chai-pouring.png": "/static/media/chai-pouring.493ae97070ec062e56b4.png",
     "static/media/pyaali_logo.png": "/static/media/pyaali_logo.2b4c30b6d5cfde0ec4e5.png",
     "index.html": "/index.html",
-    "main.4292d307.css.map": "/static/css/main.4292d307.css.map",
-    "main.18d3ba8a.js.map": "/static/js/main.18d3ba8a.js.map"
+    "main.63512894.css.map": "/static/css/main.63512894.css.map",
+    "main.2a45fa20.js.map": "/static/js/main.2a45fa20.js.map"
   },
   "entrypoints": [
-    "static/css/main.4292d307.css",
-    "static/js/main.18d3ba8a.js"
+    "static/css/main.63512894.css",
+    "static/js/main.2a45fa20.js"
   ]
 }
